@@ -12,7 +12,7 @@ export default class App extends Component {
     if (this.state.isStart) {
       this.setState({ clock: this.state.clock + 1 });
     }
-    console.log(this.state.clock);
+    // console.log(this.state.clock);
   }, 1000);
 
   onStartClick = () => {
